@@ -1,0 +1,154 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box; 
+}
+body{
+    margin: 0;
+    padding:0;
+}
+
+
+.header{
+    background-color:#1F2937;
+    padding:24px 12%;
+ 
+}
+.navigation{
+    list-style-type: none;
+    margin:0; 
+    padding:0;
+    display:flex;
+    gap:24px;
+    
+}
+.navigation a, .left-side>p, .right-side{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+#head{margin-right: auto;}
+#head a{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-main{
+    display:flex;
+    padding:130px 0px;
+    gap:32px;
+}
+.left-side{
+    width: 67%;
+}
+.left-side>h1{
+    font-size:48px;
+    font-weight:bold;
+    color: #f9faf8;
+    margin:0;
+}
+.left-side button{
+    background-color: #3882f6;
+    border:none;
+    border-radius: 8px;
+    padding:10px 34px;
+    font-size:18px;
+    color:#f9faf8;
+    font-weight: bold;
+}
+
+.right-side{
+    width:75%;
+    height:240px;
+    background-color:#6d747d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section1{text-align: center;}
+.section1>h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.sec1-content{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    padding:50px 0px;
+    
+}
+.sec1-content>div{
+    display:flex;
+    flex-flow: row wrap;
+    width: 170px;
+    font-size: 18px;
+    color: #4b5563;
+}
+.sec1-content>div>span{
+    width: 165px; height: 165px;
+    border: 4px solid #3b82f6 ;
+    border-radius: 8px;
+    
+}
+
+
+.section2{
+    background-color: #e5e7eb;
+    padding:100px 0px;
+}
+.section2>div{
+    width:62%;
+    margin:auto;
+    color:#1F2937;
+}
+
+.section2 p {
+    font-size:36px;
+    font-style:italic;   
+}
+.section2 b{
+    display:block;
+    text-align: right;
+}
+
+
+.section3{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    color:#f9faf8;
+    background-color: #3882f6;
+    margin:100px 10%;
+    padding:50px;
+    border-radius: 5px;
+}
+.section3>button{
+    background-color:inherit;
+    border:2px solid #f9faf8;
+    border-radius: 8px;
+    padding:10px 34px;
+    font-size:18px;
+    color:#f9faf8;
+    font-weight: bold;
+}
+.section3 h3{
+    margin: 0;
+    font-size: 24px;
+}
+.section3 p{
+    margin: 0;
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+
+footer{
+    display:block;
+    background-color: #1F2937;
+    text-align:center;
+    color:#e5e7eb;
+    padding:40px;
+
+}
